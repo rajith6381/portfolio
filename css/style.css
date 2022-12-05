@@ -1,0 +1,110 @@
+.navi{
+    background-image: linear-gradient(rgb(83, 77, 77),white);
+}
+.navi a{
+    cursor: pointer;
+}
+.bcont h1{
+   
+
+    padding-top: 5rem;
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+.bcont span{
+    color: rgb(156, 151, 151);
+}
+.bcont{
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example{
+    from{
+        transform:translateX(-500px);
+        }
+}
+.bcont h4{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.logo a{
+    font-size: 1.9rem;
+    
+}
+
+.bimg img{
+    
+    background-image: radial-gradient(circle, black, #ccc,white);
+    border-bottom-left-radius:50%;
+    border-top-right-radius: 30%;
+    animation-name: example2;
+    animation-duration: 1s;
+    border: 10px solid rgb(156, 151, 151);
+}
+
+
+@keyframes example2{
+    from{
+        transform:translateX(500px);
+        }
+}
+.aboutimg img{
+    border-radius: 50%;
+    box-shadow: -20px -20px #ccc;
+}
+.about-cont h4{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.about-cont p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+.icon1{
+    padding-right: 1rem;
+}
+.about-cont button:hover{
+    background-color: black;
+    color: white;
+}
+.skill{
+    background-color: rgb(239, 239, 239);
+}
+.web:hover{
+    box-shadow: 0 0 10px black;
+}
+.web:hover i{
+    color: rgb(138, 134, 134);
+}
+.html{
+    height: 15rem;
+    border: 1px solid #ccc;
+}
+.skil i{
+      font-size: 1.9rem;
+}
+.res img{
+    border-radius:10%;
+}
+.footer{
+    background-color: rgb(241, 241, 241);
+}
+.color{
+    background-color: #adb5bd;
+}
+.resum{
+    width:100%;
+    display:none;
+}
+.btn1{
+    display: flex;
+    margin: auto;
+    border-radius:24px;
+
+}
+.btn1:hover{
+    background-color: black;
+    color:white;
+}
