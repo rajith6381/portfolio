@@ -1,5 +1,8 @@
 .navi{
     background-image: linear-gradient(rgb(83, 77, 77),white);
+    position:fixed;
+    width: 100%;
+    z-index: 1;
 }
 .navi a{
     cursor: pointer;
@@ -107,4 +110,10 @@
 .btn1:hover{
     background-color: black;
     color:white;
+}
+.port1{
+    margin: auto;
+}
+.mailto a{
+    text-decoration: none;
 }
